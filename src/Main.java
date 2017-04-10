@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         JFrame frame = new JFrame("Mountain Range");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(1020,1020);
+        frame.setSize(1920,1080);
         frame.add(new Generator());
         frame.setVisible(true);
     }
